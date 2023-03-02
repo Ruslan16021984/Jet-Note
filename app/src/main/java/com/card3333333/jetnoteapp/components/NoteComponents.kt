@@ -56,7 +56,7 @@ fun NoteButton(
 ) {
     Button(
         onClick = {
-            onClick
+            onClick()
         },
         shape = CircleShape,
         enabled = enabled,
